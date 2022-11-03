@@ -8,6 +8,8 @@ int main(){
 
     if(num>0)
         printf("Positive Number\n");
+    else if(num ==0 )
+        printf("Number Is Zero (Neutral)\n");
     else
         printf("Negative Number\n");
 

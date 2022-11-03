@@ -6,6 +6,7 @@ int main(){
     printf("Enter a alphabet\n");
     scanf("%c",&ch);
 
+    //Logic 1
     if(ch >= 'a' && ch<='z')
         printf("Lowercase Character\n");
     
@@ -14,7 +15,7 @@ int main(){
     else
         printf("Enter a valid alphabet");
     
-
+    //Logic 2
     // if(ch >= 97 && ch <= 122){
     //     printf("Lowercase Character\n");
     // }else if (ch>=65 && ch<=90)
